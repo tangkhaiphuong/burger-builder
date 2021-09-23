@@ -1,0 +1,35 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="BurgerBuilder.Avalonia.MainWindow"
+        Title="MainWindow" Height="333" Width="678" Opened="WindowOnOpened">
+    <Grid>
+        <Button x:Name="buttonMenuI" x:FieldModifier="public" Content="Menu I" HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                Margin="46, 30,0,0"
+                VerticalAlignment="Top" VerticalContentAlignment="Center" Height="74" Width="175" />
+        <Button x:Name="buttonMenuII" x:FieldModifier="public" Content="Menu II" HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                Margin="46,133,0,0"
+                VerticalAlignment="Top" VerticalContentAlignment="Center" Height="74" Width="175" />
+        <Button x:Name="buttonSalad" x:FieldModifier="public" Content="Xà lách " HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                Margin="249,30,0,0"
+                VerticalAlignment="Top" VerticalContentAlignment="Center" Height="74" Width="175" />
+        <Button x:Name="buttonCheese" x:FieldModifier="public" Content="Phô mai" HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                Margin="454,30,0,0"
+                VerticalAlignment="Top" VerticalContentAlignment="Center" Height="74" Width="175" />
+        <Button x:Name="buttonMeat" x:FieldModifier="public" Content="Thịt" HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                Margin="249,133,0,0"
+                VerticalAlignment="Top" VerticalContentAlignment="Center" Height="74" Width="175" />
+        <Button x:Name="buttonTomato" x:FieldModifier="public" Content="Cà chua" HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                Margin="454,133,0,0"
+                VerticalAlignment="Top" VerticalContentAlignment="Center" Height="74" Width="175" />
+        <Button x:Name="buttonSkip" x:FieldModifier="public" Content="Bỏ qua" HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                Margin="46,237,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center"
+                Height="45" Width="583" />
+    </Grid>
+</Window>

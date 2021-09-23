@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <IsPackable>false</IsPackable>
+        <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <OutputPath>..\Binary\Debug</OutputPath>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <OutputPath>..\Binary\Release</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4"/>
+        <PackageReference Include="MSTest.TestAdapter" Version="2.2.3"/>
+        <PackageReference Include="MSTest.TestFramework" Version="2.2.3"/>
+        <PackageReference Include="coverlet.collector" Version="3.0.2"/>
+
+        <PackageReference Include="System.Interactive.Async">
+            <Version>5.0.0</Version>
+        </PackageReference>
+        <PackageReference Include="System.Reactive">
+            <Version>5.0.0</Version>
+        </PackageReference>
+        <PackageReference Include="System.Reactive.Linq">
+            <Version>5.0.0</Version>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BurgerBuilder\BurgerBuilder.csproj"/>
+    </ItemGroup>
+
+</Project>

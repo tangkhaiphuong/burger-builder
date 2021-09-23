@@ -1,0 +1,24 @@
+﻿<Window x:Class="BurgerBuilder.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="345" Width="678" Loaded="WindowOnLoaded" WindowStyle="ToolWindow">
+    <Grid>
+        <Button x:Name="buttonMenuI" Content="Menu I" HorizontalAlignment="Left" Margin="46, 30,0,0"
+                VerticalAlignment="Top" Height="74" Width="175" />
+        <Button x:Name="buttonMenuII" Content="Menu II" HorizontalAlignment="Left" Margin="46,133,0,0"
+                VerticalAlignment="Top" Height="74" Width="175" />
+        <Button x:Name="buttonSalad" Content="Xà lách " HorizontalAlignment="Left" Margin="249,30,0,0"
+                VerticalAlignment="Top" Height="74" Width="175" />
+        <Button x:Name="buttonCheese" Content="Phô mai" HorizontalAlignment="Left" Margin="454,30,0,0"
+                VerticalAlignment="Top" Height="74" Width="175" />
+        <Button x:Name="buttonMeat" Content="Thịt" HorizontalAlignment="Left" Margin="249,133,0,0"
+                VerticalAlignment="Top" Height="74" Width="175" />
+        <Button x:Name="buttonTomato" Content="Cà chua" HorizontalAlignment="Left" Margin="454,133,0,0"
+                VerticalAlignment="Top" Height="74" Width="175" />
+        <Button x:Name="buttonSkip" Content="Bỏ qua" HorizontalAlignment="Left" Margin="46,237,0,0" VerticalAlignment="Top"
+                Height="45" Width="583" />
+    </Grid>
+</Window>
