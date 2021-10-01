@@ -36,6 +36,9 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DynamicData, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicData.7.3.1\lib\net461\DynamicData.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
       <Private>True</Private>
@@ -46,9 +49,18 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="ReactiveUI, Version=16.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ReactiveUI.16.2.6\lib\net461\ReactiveUI.dll</HintPath>
+    </Reference>
     <Reference Include="ReactiveUI.Events.WPF, Version=15.1.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\ReactiveUI.Events.WPF.15.1.1\lib\net461\ReactiveUI.Events.WPF.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="ReactiveUI.Wpf, Version=16.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ReactiveUI.WPF.16.2.6\lib\net461\ReactiveUI.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Splat, Version=13.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Splat.13.1.1\lib\net461\Splat.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -77,6 +89,11 @@
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
@@ -122,6 +139,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BurgerBuilder.Model\BurgerBuilder.Model.csproj">
+      <Project>{4F5EE610-6F3A-471E-8746-B1093D972319}</Project>
+      <Name>BurgerBuilder.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BurgerBuilder\BurgerBuilder.csproj">
       <Project>{fe883329-7681-46e9-bb4e-efccfa545016}</Project>
       <Name>BurgerBuilder</Name>

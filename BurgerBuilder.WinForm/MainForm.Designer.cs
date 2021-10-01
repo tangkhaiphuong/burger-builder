@@ -101,7 +101,7 @@ namespace BurgerBuilder.WinForm
             this.buttonSkip.Text = "Bỏ qua";
             this.buttonSkip.UseVisualStyleBackColor = true;
             // 
-            // BurgerBuilderForm
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -116,9 +116,9 @@ namespace BurgerBuilder.WinForm
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "BurgerBuilderForm";
+            this.Name = "MainForm";
             this.Text = "Burger Builder";
-            this.Load += new System.EventHandler(this.BurgerBuilderFormOnLoad);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
 
         }

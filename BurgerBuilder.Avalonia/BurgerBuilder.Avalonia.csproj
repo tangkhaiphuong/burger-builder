@@ -48,6 +48,7 @@
 
 
   <ItemGroup>
+    <ProjectReference Include="..\BurgerBuilder.Model\BurgerBuilder.Model.csproj" />
     <ProjectReference Include="..\BurgerBuilder\BurgerBuilder.csproj" />
   </ItemGroup>
 

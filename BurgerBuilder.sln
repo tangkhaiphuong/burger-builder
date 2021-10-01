@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerBuilder.Wpf", "Burger
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerBuilder.WinForm", "BurgerBuilder.WinForm\BurgerBuilder.WinForm.csproj", "{09B0ABD0-9C4E-4ACD-B2C4-7D571BBB2642}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerBuilder.Model", "BurgerBuilder.Model\BurgerBuilder.Model.csproj", "{4F5EE610-6F3A-471E-8746-B1093D972319}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{09B0ABD0-9C4E-4ACD-B2C4-7D571BBB2642}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09B0ABD0-9C4E-4ACD-B2C4-7D571BBB2642}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09B0ABD0-9C4E-4ACD-B2C4-7D571BBB2642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5EE610-6F3A-471E-8746-B1093D972319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5EE610-6F3A-471E-8746-B1093D972319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5EE610-6F3A-471E-8746-B1093D972319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5EE610-6F3A-471E-8746-B1093D972319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
